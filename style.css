@@ -1,3 +1,63 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  
+ .nadpis {
+    color:rgb(18, 179, 179);
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 15px 0 15px 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.box01 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: darkcyan;
+   color: bisque;
+   padding: 15px 0 15px 45px;
+       }
+
+ .fotka {
+   float: right;
+   margin: 10px 50px 10px 50px;
+   width: 20%;
+   height: 20%;
+   border-radius: 50%;
+ }
+
+.box02 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: bisque;
+   color: darkcyan;
+   padding: 15px 0 15px 45px;
+}
+
+.box03 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: bisque;
+   color: darkcyan;
+   padding: 15px 0 15px 45px;
+}
+
+.box04 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: darkcyan;
+   color: bisque;
+   padding: 15px 0 15px 45px;
+   }
+
+.paticka {
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;color:rgb(18, 179, 179);
+   background-color: whitesmoke;
+   text-align: left;
+   padding: 15px 0 15px 45px;
+   }
